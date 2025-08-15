@@ -9,7 +9,7 @@ const server = http.createServer(app);
 const port = process.env.PORT || 8000;
  
 const startServer = async () => {
-    await connectDB();
+    await connectDB(); 
     server.listen(8000, () => {
         console.log(`Server is running on port ${port}`);
     });
