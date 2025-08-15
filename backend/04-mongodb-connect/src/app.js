@@ -1,16 +1,11 @@
 import express from 'express';
-import User from './models/user-model.js';
+import userRouter from '../router/userRoute.js';
 
 const app = express();
 
-app.post('/user', async (req, res) => {
-    const user = await User.create({
-        name: "tong",
-        email: "tong@dev.com",
-        password: "tongtong"
-    })
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-    res.status(200).send(user);
-})
+app.use("/api",userRouter);
 
 export default app;
