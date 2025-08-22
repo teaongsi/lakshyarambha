@@ -8,4 +8,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api",userRouter);
 
+app.use(errorMiddleware);
+
 export default app;
