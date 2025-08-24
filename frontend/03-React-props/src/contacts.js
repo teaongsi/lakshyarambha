@@ -9,7 +9,7 @@ export const contacts = [
   {
     name: "Marky",
     imgURL:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHBaDlmTRzW00NJ4frUdO4YCZ8uqw09ALMOskXfsCM5wwZM1iUfM_uGiA-7MvWNjxm2c&usqp=CAU",
+      "https://i.pinimg.com/736x/6c/51/04/6c510478d635536d9d45b0801bf4d92b.jpg",
     phone: "+987 654 321",
     email: "marky@mail.com"
   },
