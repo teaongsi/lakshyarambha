@@ -37,6 +37,12 @@ body {
   display: flex;
 }
 
+.id {
+  font-size: 2em;
+  color: #2d3436;
+  margin: 10% 20px 0;
+}
+
 .name {
   font-size: 2em;
   color: #2d3436;
